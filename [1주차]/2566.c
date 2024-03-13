@@ -1,9 +1,10 @@
 #include <stdio.h>
 
-int num,x,y;
-int max=-1;
 
 int main(){
+
+  int num,x,y;
+  int max=-1;
     for(int i=1; i<=9; i++){
         for(int k=1; k<=9 ; k++){
             scanf("%d",&num);
