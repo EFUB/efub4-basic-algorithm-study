@@ -28,7 +28,7 @@ int main(void) {
             cin >> arr[i][j];
         }
     }
-   
+  
     solve(arr);
     return 0;
 }
