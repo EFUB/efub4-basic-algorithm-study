@@ -5,11 +5,8 @@ for i in range(1,n//2) :
     if n%i == 0 :
         nums.append(i)
         nums.append(n//i)
-        print(nums)
 nums2=list(set(nums))
-print(nums2)
 sorted_nums=sorted(nums2)
-print(sorted_nums)
 if len(nums2)>=k:
     print(sorted_nums[k-1])
 else:
