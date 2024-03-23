@@ -9,5 +9,6 @@ nums2=list(set(nums))
 sorted_nums=sorted(nums2)
 if len(nums2)>=k:
     print(sorted_nums[k-1])
+
 else:
     print(0)
