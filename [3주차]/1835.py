@@ -1,16 +1,16 @@
 from collections import deque
 
 n=int(input())
-dq=deque()
-dq.appendleft(n)
+dqe=deque()
+dqe.appendleft(n)
 
 for i in range(n-1, 0, -1):
-    dq.appendleft(i)
+    dqe.appendleft(i)
     
     for j in range(i):
-        k=dq.pop()
-        dq.appendleft(k)
+        k=dqe.pop()
+        dqe.appendleft(k)
 
-print(*dq) 
+print(*dqe) 
 
-#*dq는 deque 객체 dq에 저장된 모든 요소를 공백으로 구분하여 출력한다.
+#*dqe는 deque 객체 dqe에 저장된 모든 요소를 공백으로 구분하여 출력한다.
