@@ -1,6 +1,6 @@
 /*
 - VSC Code Snippets 단축키
-백준 bjo
+백준 boj
 프로그래머스 pgs
 
 - VSC Code Runner Extension 단축키
@@ -8,7 +8,7 @@
 중지 control + option + M
 
 - commit message
-[BJO PGS] 문제_이름 / 문제_주소
+[BOJ PGS] 문제_이름 / 문제_주소
 
 - 폴더명 week0n, 파일명 문제_번호.js
 
@@ -16,7 +16,7 @@
 */
 {
 	"Node.js BAEKJOON": {
-		"prefix": "bjo",
+		"prefix": "boj",
 		"body": [
 			"// 2024.00.00 풀이",
 			"// 문제_이름",
