@@ -1,0 +1,67 @@
+/*
+- VSC Code Snippets 단축키
+백준 boj
+프로그래머스 pgs
+
+- VSC Code Runner Extension 단축키
+실행 control + option + N
+중지 control + option + M
+
+- commit message
+[BOJ PGS] 문제_이름 / 문제_주소
+
+- 폴더명 week0n, 파일명 문제_번호.js
+
+- VSC 사용 시 루트 input.txt 파일에 케이스 작성
+*/
+{
+	"Node.js BAEKJOON": {
+		"prefix": "boj",
+		"body": [
+			"// 2024.00.00 풀이",
+			"// 문제_이름",
+			"// 문제_링크",
+			"",
+			"const fs = require(\"fs\");",
+			"const path = \"./input.txt\";",
+			"",
+			"const readline = require(\"readline\");",
+			"const rl = readline.createInterface({",
+			"\t// input: process.stdin,",
+			"\tinput: fs.createReadStream(path),",
+			"\toutput: process.stdout,",
+			"});",
+			"",
+			"let input = [];",
+			"",
+			"rl.on(\"line\", function (line) {",
+			"\tinput.push(line);",
+			"}).on(\"close\", function () {",
+			"\tsolution(input);",
+			"\tprocess.exit();",
+			"});",
+			"",
+			"function solution(input) {}"
+		],
+		"description": "백준 Node.js 템플릿"
+	},
+	"JavaScript PROGRAMMERS SCHOOL": {
+		"prefix": "pgs",
+		"body": [
+			"// 2024.00.00 풀이",
+			"// 문제_이름",
+			"// 문제_링크",
+			"",
+			"let input = [];",
+			"",
+			"function solution(input) {",
+			"\tlet answer = 0;",
+			"\treturn answer;",
+			"}",
+			"",
+			"console.log(solution(input));",
+			"// 출력"
+		],
+		"description": "프로그래머스 JavaScript 템플릿"
+	}
+}
