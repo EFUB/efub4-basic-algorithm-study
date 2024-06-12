@@ -26,7 +26,6 @@ void solution(int seatNum, int startI, int startJ,int(*seat) [1025]){
     }
     
     else{
-        
         // 4 구역으로 나눔.
         seatNum = seatNum/2;
         solution(seatNum, startI, startJ, seat);
