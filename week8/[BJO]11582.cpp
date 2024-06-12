@@ -1,4 +1,5 @@
 #include <stdio.h>
+
 int temp[1 << 21] = { 0 }, arr[1 << 21] = { 0 }; //시프트 연산을 이용한 2의 제곱근 계산
 int MergeSort(int* arr, int first, int last, int hand);
 int Merge(int* arr, int first, int mid, int last, int hand);
